@@ -31,6 +31,9 @@ This homelab project demonstrates hands-on system administration skills by manag
 - <b>Basic identity and access management (IAM) concepts</b>
 - <b>Safe administration using virtualized environments</b>
 
+<h2></h2>
+
+
 <!--
  ```diff
 - text in red
