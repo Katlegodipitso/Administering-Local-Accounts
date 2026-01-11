@@ -21,7 +21,7 @@ This homelab project demonstrates hands-on system administration skills by manag
 - <b>Removing administrative privileges from user accounts</b>
 - <b>Deleting local user accounts when no longer required</b>
 
-<h2>👨‍🏫Learning Objectives</h2>
+<h2>🎓Learning Objectives</h2>
 
 <b>Through this project, the following skills are demonstrated:</b>
 
