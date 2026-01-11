@@ -1,51 +1,35 @@
-<h1>JWipe - Disk Sanitization</h1>
-
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<h1>Windows 11 Local User Account Administration Homelab</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This homelab project demonstrates hands-on system administration skills by managing local user accounts within a Windows 11 virtual machine hosted on VMware. The objective of the project is to simulate real-world desktop and endpoint administration tasks commonly performed by IT support technicians and system administrators in a corporate environment. The project focuses on local account lifecycle management using the Local Users and Groups (lusrmgr.msc) management console. All tasks are performed within a controlled virtualized environment, allowing safe experimentation while following best practices for account security and privilege management.
 <br />
 
+<h2>Environments Used</h2>
 
-<h2>Languages and Utilities Used</h2>
+- <b>Host Platform: VMware Workstation</b>
+- <b>Guest Operating System: Windows 11 Enterprise Edition</b>
+- <b>Administration Tool: Local Users and Groups Management Service (lusrmgr.msc)</b>
+- <b>User Scope: Local user accounts (non-domain)</b>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+<h2>Project Scope and Activities</h2>
 
-<h2>Environments Used </h2>
+<b>The project includes the following administrative tasks:</b>
 
-- <b>Windows 10</b> (21H2)
+- <b>Creating and adding new local user accounts</b>
+- <b>Changing and resetting local user account passwords</b>
+- <b>Assigning administrative privileges to standard users</b>
+- <b>Removing administrative privileges from user accounts</b>
+- <b>Deleting local user accounts when no longer required</b>
 
-<h2>Program walk-through:</h2>
+<h2>Learning Objectives</h2>
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<b>Through this project, the following skills are demonstrated:</b>
+
+- <b>Understanding of Windows local user account architecture</b>
+- <b>Practical experience with Windows administrative tools</b>
+- <b>Application of the principle of least privilege</b>
+- <b>Basic identity and access management (IAM) concepts</b>
+- <b>Safe administration using virtualized environments</b>
 
 <!--
  ```diff
